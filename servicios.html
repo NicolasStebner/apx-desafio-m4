@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Servicios</title>
+        <!-- FONTS -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+            rel="stylesheet"
+        />
+        <!-- CSS -->
+        <link rel="stylesheet" href="./components/header.css" />
+        <link rel="stylesheet" href="./components/footer.css" />
+        <link rel="stylesheet" href="./components/misServicios.css" />
+        <link rel="stylesheet" href="./pages/portfolio.css" />
+        <!-- JS -->
+        <script defer src="./components/header.js"></script>
+        <script defer src="./pages/portfolio.js"></script>
+        <script defer src="./components/misServicios.js"></script>
+        <script defer src="./components/footer.js"></script>
+    </head>
+    <body>
+        <!-- Header -->
+        <header class="header-content"></header>
+        <!-- Bienvenida-Portfolio -->
+        <div class="portfolio-bienvenida"></div>
+        <!-- Mis Servicios -->
+        <div class="servicios">
+            <div class="servicios-fetch"></div>
+        </div>
+        <!-- Footer -->
+        <footer class="footer-content"></footer>
+
+        <!-- -------------------------------------------------------- -->
+        <!-- TEMPLATES -->
+        <template id="portfolio-template">
+            <div class="portfolio__contenedor">
+                <div class="portfolio__contenedor-titulo">
+                    <p class="portfolio__contenedor-info-titulo"></p>
+                    <p class="portfolio__contenedor-info-subtituloUno"></p>
+                    <p class="portfolio__contenedor-info-subtituloDos"></p>
+                </div>
+                <img src="" alt="" class="portfolio__contenedor-img" />
+            </div>
+        </template>
+        <!-- Mis servicios -->
+        <template id="misServicios-template">
+            <div class="misServicios__contenedor">
+                <img src="" alt="" class="misServicios__contenedor-img" />
+                <div class="misServicios__contenedor-titulo">
+                    <p class="misServicios__contenedor-info-titulo"></p>
+                    <p class="misServicios__contenedor-info-descripcion"></p>
+                </div>
+            </div>
+        </template>
+    </body>
+</html>

@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: 'Poppins';
+    font-size: 18px;
+    color: white;
+}
+
+/* Mis Servicios */
+.servicios__titulo-principal {
+    margin: 0;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
+}
+.servicios__titulo-principal-info {
+    margin: 0;
+    margin-right: 8px;
+    font-size: 42px;
+    font-weight: 700;
+}
+.color-diff {
+    color: #00adb5;
+}
+.servicios {
+    background-image: url(../src/doodleItems.png);
+    background-color: #13171c;
+    padding: 84px 24px;
+    /*  display: none; /*toggle*/
+}
+.servicios-fetch {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media (min-width: 1110px) {
+    .servicios-fetch {
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+        justify-content: space-around;
+    }
+}
+.misServicios__contenedor {
+    display: flex;
+    flex-direction: column;
+    border-radius: 16px;
+    background-color: #393e4680;
+    padding: 42px 29px 10px;
+    margin-bottom: 50px;
+    max-width: 310px;
+}
+@media (min-width: 1110px) {
+    .misServicios__contenedor {
+        max-width: 360px;
+        height: 523px;
+        margin-bottom: 0;
+    }
+}
+.misServicios__contenedor-img {
+    max-width: 265px;
+    height: 150px;
+    margin: 0 auto;
+}
+.misServicios__contenedor-titulo {
+}
+.misServicios__contenedor-info-titulo {
+    font-size: 36px;
+    text-align: center;
+}
+@media (min-width: 1110px) {
+    .misServicios__contenedor-info-titulo {
+        font-size: 33px;
+        text-align: center;
+    }
+}
+.misServicios__contenedor-info-descripcion {
+    font-size: 16px;
+}

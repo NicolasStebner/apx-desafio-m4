@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Desafio-m4</title>
+        <!-- FONTS -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+            rel="stylesheet"
+        />
+        <!-- CSS -->
+        <link rel="stylesheet" href="./components/header.css" />
+        <link rel="stylesheet" href="./pages/bienvenida.css" />
+        <link rel="stylesheet" href="./pages/about-me.css" />
+        <link rel="stylesheet" href="./pages/servicios.css" />
+        <link rel="stylesheet" href="./pages/contacto.css" />
+        <link rel="stylesheet" href="./components/footer.css" />
+        <link rel="stylesheet" href="./pages/index.css" />
+        <!-- JS -->
+        <script defer src="./components/header.js"></script>
+        <script defer src="./pages/bienvenida.js"></script>
+        <script defer src="./pages/about-me.js"></script>
+        <script defer src="./pages/servicios.js"></script>
+        <script defer src="./pages/contacto.js"></script>
+        <script defer src="./components/footer.js"></script>
+        <script defer src="./pages/index.js"></script>
+    </head>
+    <body>
+        <!-- Header -->
+        <header class="header-content"></header>
+        <!-- Bienvenida -->
+        <div class="bienvenida"></div>
+        <!-- Presentacion -->
+        <div class="presentacion"></div>
+        <!-- Mis servicios -->
+        <div class="servicios">
+            <div class="servicios__titulo-principal">
+                <p class="servicios__titulo-principal-info">Mis</p>
+                <p class="servicios__titulo-principal-info color-diff">Servicios</p>
+            </div>
+            <div class="servicios-fetch"></div>
+        </div>
+
+        <!-- Formulario -->
+        <div class="formulario-contenedorGeneral"></div>
+        <!-- Footer -->
+        <footer class="footer-content"></footer>
+
+        <!-- -------------------------------------------------------- -->
+        <!-- TEMPLATES -->
+        <!-- Template para Bienvenida -->
+        <template id="bienvenida-template">
+            <div class="bienvenida__contenedor">
+                <div class="bienvenida__contenedor-titulo">
+                    <p class="bienvenida__contenedor-info-titulo"></p>
+                    <p class="bienvenida__contenedor-info-subtitulo"></p>
+                </div>
+                <img src="" alt="" class="bienvenida__contenedor-img" />
+            </div>
+        </template>
+        <!-- Template para Presentacion -->
+        <template id="presentacion-template">
+            <div class="presentacion__contenedor">
+                <div class="presentacion__contenedor-titulo">
+                    <p class="presentacion__contenedor-info-titulo"></p>
+                    <p class="presentacion__contenedor-info-descripcion"></p>
+                </div>
+                <img src="" alt="" class="presentacion__contenedor-img" />
+            </div>
+        </template>
+        <!-- Template para Mis Servicios -->
+        <template id="misServicios-template">
+            <div class="misServicios__contenedor">
+                <img src="" alt="" class="misServicios__contenedor-img" />
+                <div class="misServicios__contenedor-titulo">
+                    <p class="misServicios__contenedor-info-titulo"></p>
+                    <p class="misServicios__contenedor-info-descripcion"></p>
+                </div>
+            </div>
+        </template>
+    </body>
+</html>

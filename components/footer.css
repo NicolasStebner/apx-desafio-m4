@@ -1,0 +1,79 @@
+/* Footer */
+.footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #13171c;
+    color: white;
+    justify-content: center;
+    align-content: center;
+    padding: 79px 0;
+}
+.footer__img {
+    min-width: 75px;
+    height: 75px;
+    margin: 0 auto 40px auto;
+}
+.footer__links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+@media (min-width: 375px) {
+    .footer__links {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px;
+        max-width: 600px;
+        margin: 0 auto;
+    }
+}
+.footer__link-cont {
+    display: flex;
+}
+.footer__links-redirect {
+    margin: 0;
+    margin-bottom: 15px;
+    margin-right: 10px;
+    color: white;
+}
+.footer__link-cont > a {
+    text-decoration: none;
+}
+.footer__links-redirect:visited {
+    color: white;
+}
+.footer__link-img {
+    max-width: 24px;
+    height: 24px;
+    margin-right: 6px;
+}
+.footer__redes-redSocial {
+    margin: 0;
+}
+.footer__redes {
+    margin: 20px auto;
+}
+.footer__redes-redSocial {
+    max-width: 48px;
+    height: 48px;
+    margin-right: 20px;
+}
+.footer__copy-school {
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+}
+@media (min-width: 375px) {
+    .footer__copy-school {
+        margin: 50px auto 10px;
+    }
+}
+.footer__copy-school-year {
+    margin: 0;
+}
+.footer__copy-school-link {
+    margin-left: 4px;
+    color: white;
+    text-decoration-line: none;
+}

@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: 'Poppins';
+    font-size: 18px;
+    color: white;
+}
+.formulario-contenedorGeneral {
+    background-color: #13171c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 25px 90px;
+}
+@media (min-width: 960px) {
+    .formulario-contenedorGeneral {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        align-items: start;
+        padding: 60px 100px 90px;
+    }
+}
+.formulario-contenedorGeneral__titulo {
+    display: flex;
+    text-align: start;
+}
+.formulario-contenedorGeneral__titulo-info {
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.formulario__nombreYEmail {
+}
+@media (min-width: 960px) {
+    .formulario__nombreYEmail {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+}
+.label {
+    margin-top: 30px;
+}
+.nombre {
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.nombre-texto {
+    width: 100%;
+    height: 50px;
+    color: white;
+}
+.email {
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.email-texto {
+    width: 100%;
+    height: 50px;
+    color: white;
+}
+.mensaje {
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.mensaje-texto {
+    height: 280px;
+    width: 100%;
+    color: white;
+}
+.nombre-texto,
+.email-texto,
+.mensaje-texto {
+    border-radius: 16px;
+    background-color: #393e4680;
+}
+
+.boton {
+    width: 100%;
+    border-radius: 24px;
+    background-color: #00adb5;
+    padding: 14px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+@media (min-width: 960px) {
+    .boton {
+        max-width: 231px;
+    }
+}
